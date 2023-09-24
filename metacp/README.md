@@ -10,6 +10,8 @@ This can be particularly useful if you transcoded some photos or videos but the 
 
 ## How it works
 
+📃 I have written an entire [blog post](https://www.stefankreidel.io/blog/media-exif-copy) about this topic which goes into more details about the backgrounds and how the script works. Feel free to check it our.
+
 This bash script loops over all files found in the `--destination` folder, searches for the "same" files int the `--source` folder and simply copies the original EXIF metadata over.
 
 The filenames are compared case-insensitive and the file extension (.jpg, .mp4, .mkv) are ignored in both cases. This means that:
